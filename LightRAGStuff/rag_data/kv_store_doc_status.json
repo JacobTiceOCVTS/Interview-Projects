@@ -1,0 +1,17 @@
+{
+  "doc-670e5a841676bbe4bc5f340e8d4ef693": {
+    "status": "failed",
+    "error_msg": "C[1/40]: chunk-f931cef1fbb8ca1b76c097eff36949c6: model runner has unexpectedly stopped, this may be due to resource limitations or an internal error, check ollama server logs for details (status code: -1)",
+    "content_summary": "A CHRISTMAS CAROL \nIN PROSE \nBEING \n/G16/G01 /G1C /G37/G3E /G42 /G43/G01/G28 /G43 /G3E /G41 /G48/G01/G3E /G35/G01/G18 /G37/G41 /G38/G42 /G43 /G3C /G30/G42 /G01 \n \n \nBY \n \n \nCHARLES DICKENS \n \n \n \n \nWITH ILLUSTRATIONS BY JOHN LEECH \n \n \n \n \n \n \n/G37/G...",
+    "content_length": 165906,
+    "created_at": "2025-12-10T17:58:52.603528+00:00",
+    "updated_at": "2025-12-11T16:13:43.569465+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20251210_175852_b67f74f4",
+    "metadata": {
+      "processing_start_time": 1765469338,
+      "processing_end_time": 1765469623
+    },
+    "chunks_list": []
+  }
+}

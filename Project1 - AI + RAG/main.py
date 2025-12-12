@@ -13,14 +13,16 @@ def read_root():
 
 
 @app.get("/llm") #new endpoint for the API request
-def llm_test():
+def llm_test(user_prompt: str):
+    print(f"Prompt from frontend recieved: {user_prompt}")
     try:
         #generates a repsonse using ollama, via deepseek model
         #returns the response as an object
         response = ollama.generate(
-            model='deepseek-r1:8b',
-            prompt='Tell me a very short simple fact about cats',
+            model='gemma3:12b',
+            prompt=user_prompt,
         )
+        print({"answer": response['response']})
         return {"answer": response['response']}#response is a dictionary and the reponse key is just the text the AI will respond withokay
     except Exception as e:
         
