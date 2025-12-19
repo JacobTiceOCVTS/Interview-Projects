@@ -18,6 +18,9 @@ DOCUMENT_DIR_PATH = "./Files/documents"
 # dir of the text files that will be interpreted by RAG
 TEXT_FILES = "./Files/data/"
 
+os.mkdir(DOCUMENT_DIR_PATH)
+os.mkdir(TEXT_FILES)
+
 # clears directory of text files for clean start
 for file in os.listdir(TEXT_FILES):
     os.remove(f"{TEXT_FILES}/{file}")
