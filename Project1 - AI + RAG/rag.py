@@ -1,6 +1,4 @@
 import os
-import subprocess
-import sys
 from pypdf import PdfReader
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.core.agent.workflow import AgentWorkflow
